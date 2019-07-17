@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<include
+    android:id="@+id/toolbar"
+    layout="@layout/toolbar"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:text="Welcome to ALC 4.0"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif" />
+
+    <Button
+        android:id="@+id/btn_aboutAlc"
+        android:layout_width="159dp"
+        android:layout_height="37dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="About ALC"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="160dp"
+        android:layout_height="38dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="280dp"
+        android:gravity="center"
+        android:background="@android:color/holo_orange_light"
+        android:text="MY PROFILE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:textSize="24sp" />
+
+</RelativeLayout>

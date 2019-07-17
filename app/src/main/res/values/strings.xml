@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChallengeOne</string>
+    <string name="toolbar_title">ALC 4 Phase 1</string>
+    <string name="toolbar2_title">About ALC</string>
+    <string name="company">Andela</string>
+    <string name="my_profile">My Profile</string>
+    <string name="title_activity_about_alc">About ALC</string>
+    <string name="title_activity_my_profile">MyProfile</string>
+</resources>
